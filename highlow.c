@@ -9,7 +9,6 @@ for(i=0;i<a;i++)
 scanf("%d",&b[i]);
 }
 min=max=b[0];
-printf("smallest no is");
 for(i=0;i<a;i++)
 {
 if(b[i]<min)
@@ -17,8 +16,7 @@ if(b[i]<min)
 min=b[i];
 }
 }
-printf("%d",min);
-printf("largest no is");
+printf("%d\t",min);
 for(i=0;i<a;i++)
 {
 if(b[i]>max)
