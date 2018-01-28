@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+void main()
 {
 	int n,temp,count=0,k;
 	printf("\nEnter the number: ");
@@ -28,5 +28,4 @@ int main(void)
 	{
 		printf("\nThe number %d is not binary",k);
 	}
-	return 0;
 }
