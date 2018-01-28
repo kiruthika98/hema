@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int n,i;
 int count=0;
@@ -14,10 +14,11 @@ count++;
 }
 if(count==1)
 {
-printf("%d IS PRIME NUMBER",n);
+printf("yes");
 }
 else
 {
-printf(" %d IS NOT A PRIME NUMBER",n);
+printf("no");
 }
+  return 0;
 }
