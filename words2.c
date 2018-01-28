@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 char a[15];
 int i,j;
@@ -15,5 +15,6 @@ if(a[j]==' ')
 count++;
 }
 }
-printf("no of words in a line is %d",count+1);
+printf("words is %d",count+1);
+  return 0;
 }
