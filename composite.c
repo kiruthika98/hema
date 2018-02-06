@@ -13,11 +13,11 @@ int main()
   }
   if(count>0)
   {
-    printf("the number is composite %d",num);
+    printf("yes");
   }
   else
   {
-    printf("the number is not composite %d",num);
+    printf("no");
   }
   return 0;
 }
