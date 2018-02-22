@@ -1,7 +1,7 @@
 #include <stdio.h
 int main()
 {
-    float len,bre,area;
+    float length,breadth,area;
     printf("enter the length breadth of the farm\n");
     scanf("%f %f",&len,&bre);
     area=len*bre;
