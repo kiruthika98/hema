@@ -5,11 +5,7 @@ void main()
     int n1, n2, minMul;
     printf("Enter two positive integers: ");
     scanf("%d %d", &n1, &n2);
-
-    
     minMul = (n1>n2) ? n1 : n2;
-
-  
     while(1)
     {
         if( minMul%n1==0 && minMul%n2==0 )
