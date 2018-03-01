@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int n,i,a;
 printf("enter the number");
@@ -9,5 +9,4 @@ while(n%2==0)
 n/=2;
 }
 printf("%d",n);
-return 0;
 }
